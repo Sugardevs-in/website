@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Akatab&family=Dancing+Script:wght@700&family=Imprima&display=swap');
+
+body {
+    background: #0F0715;
+    margin: 0; /* Remove default margin to ensure full coverage of the background */
+}
+
+.home {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    position: relative; /* Change to relative to allow positioning of child elements */
+    max-width: 100%;
+    
+}
+
+.sugardevs-logo {
+    border-radius: 274px;
+    border: 10px solid rgba(255, 255, 255, 0.19);
+    backdrop-filter: blur(20px);
+
+    position: absolute;
+    top: 15%;
+    height: auto;
+    max-width: 20%;
+    z-index: 1;
+    border-radius: 50% ;
+}
+
+.home_bg_img {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    text-align: center;
+    color: black;
+    z-index: -1;
+}
+
+.home_hero_text {
+
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: white;
+    font-family: 'Imprima', sans-serif;
+    font-size: 3.5vw;
+    white-space: nowrap;
+    background: rgba(255, 255, 255, 0.19);
+    backdrop-filter: blur(40px);
+    border: 2px;
+ 
+    border-radius: 20px;
+
+}
+.white-sep{
+    height: 2px;
+    width: 100%;
+    color: #fff;
+    background-color: #fff;
+}
+
+/*What we are section*/
+
+.second-android-img{
+    max-width: 40%;
+    height: auto;
+    padding: 5%;
+}
+.what-we-are{
+    display: flex;
+    padding: 5%;
+}
+.sub-hero-text{
+    padding: 5%;
+    color: #FFF;
+    text-align: center;
+    font-family: Imprima;
+    font-size: 4vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+.sub-text{
+color: #FFF;
+text-align: justify ;
+font-family: Delius;
+font-size: 2vw;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+
+/*Who can benefit from sugardevs section*/
+.Who-can-benefit-from-sugardevs{
+    display: flex;
+    
+}
+
+.Who-can-benefit-from-sugardevs-hero{
+    padding-top: 5%;
+    color: #FFF;
+    text-align: center;
+    font-family: Imprima;
+    font-size: 4vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.Who-can-benefit-from-sugardevs-text{
+    color: #FFF;
+    padding-left: 5%;
+    text-align: justify ;
+    font-family: Delius;
+    font-size: 2vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+}
+.third-img{    
+    max-width: 20%;
+    height: auto;
+    padding: 5%;
+}
+
+/*Our products*/
+.our-products{
+    display: flex;
+    justify-content: space-evenly;
+}
+.fourth-img{
+    max-width: 30%;
+    height: auto;
+    padding: 5%;
+}
+
+.our-products-hero{
+   
+    padding-top: 7%;
+    color: #FFF;
+    text-align: center;
+    font-family: Imprima;
+    font-size: 4vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.our-products-text{
+    color: #FFF;
+    padding-left: 5%;
+    text-align: center ;
+    font-family: Delius;
+    font-size: 2vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.download-button{
+
+    color: #000;
+   
+    font-family: Imprima;
+    font-size: 2vw;
+    width: 70%;
+    height: 13%;
+    border-color: #000;
+    border: 5px;
+    border-radius: 20px;
+    
+}
+.download-button:active{
+    background-color: #5ABCF3;
+    color: #fff;
+}
+
+/*Contact us */
+.contact-us-hero{
+    padding-top: 7%;
+    color: #FFF;
+    text-align: center;
+    font-family: Imprima;
+    font-size: 4vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.contact-us-img{
+    display: flex;
+    justify-content: center;
+   
+
+}
+
+.socials{
+    padding :2%;
+}
+
+.email{
+    color: #FFF;
+   
+    padding-bottom: 15%;
+    text-align: center ;
+    font-family: imprima;
+    font-size: 1.5vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.copyright{
+    
+    color: #000;
+    padding-left: 20px;
+    padding-top: 2px;
+    padding-bottom: 5px;
+    text-align: left ;
+    font-family: imprima;
+    font-size: 1.5vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: #FFF;
+}

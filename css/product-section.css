@@ -1,0 +1,101 @@
+.product-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 100%;
+  height: max-content;
+  padding: 10px 0;
+}
+.head3{
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  font-family: Roboto;
+  font-weight: 700;
+}
+.products{
+  background-color: var(--background);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 25px 10px;
+}
+.product1{
+  position: relative;
+  background-color: var(--foreground);
+  padding: 20px 15px;
+  min-width: 200px;
+  max-width: 400px;
+  height: 200px;
+  border-radius: 15px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  border-bottom: 2px solid #1f8907;
+}
+
+.product1 .productlogo img{
+  width: 70px;
+}
+.product1 .right1{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.product1 .product-details{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  width: 100%;
+  font-family: Poppins;
+  row-gap: 15px;
+}
+.product1 .product-details h3{
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+.product1 .product-details p{
+  font-size: 0.7rem;
+  text-align: center;
+  width: 74%;
+  font-weight: 500;
+}
+
+.product1 .download-button{
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: end;
+  text-decoration: none;
+}
+.product1 .download-button button{
+  padding: 10px 25px;
+  color: #000;
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 0.9rem;
+  border-radius: 10px;
+  border: none;
+  background-color: #1f8907;
+  color: #fff;
+  transition: background-color 0.15s, color 0.10s;
+  cursor: pointer;
+}
+.product1 .download-button button:hover{
+  background-color: #156a04;
+}
+.product1 .download-button button:active{
+  background-color: #fff;
+  color: #000;
+}
+
+
+

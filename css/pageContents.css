@@ -1,0 +1,133 @@
+.what-we-are{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  padding: 40px 0;
+}
+.left{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.left img{
+  width: 70%;
+  filter: drop-shadow(0 10px 30px #0000005b);
+  padding-top: 50px;
+}
+.right{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.right .head{
+  font-size: 3rem;
+  font-family: Delius;
+  font-weight: 700;
+}
+.right .sub-text{
+  padding-top: 20px;
+  font-size: 1.4rem;
+  font-family: Delius;
+  width: 90%;
+  text-align: center;
+  line-height: 1.9rem;
+}
+.Who-can-benefit-from-sugardevs{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row-reverse;
+  padding: 30px 0;
+}
+.Who-can-benefit-from-sugardevs .left img{
+  aspect-ratio: 1 / 1;
+  width: 400px;
+  padding-top: 0;
+}
+.Who-can-benefit-from-sugardevs .right{
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+}
+.Who-can-benefit-from-sugardevs .right .head2{
+  font-size: 2.5rem;
+  font-family: Delius;
+  font-weight: 700;
+  text-align: center;
+}
+.Who-can-benefit-from-sugardevs .right .sub-text2{
+  padding-top: 20px;
+  font-size: 1.4rem;
+  font-family: Delius;
+  text-align: center;
+  line-height: 1.9rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* mobile viewport */
+@media (max-width: 768px){
+  .what-we-are{
+    flex-direction: column;
+  }
+  .left{
+    padding: 0;
+  }
+  .left img{
+    width: 100%;
+    padding: 0;
+  }
+  .right{
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+  }
+  .right .head{
+    padding: 0;
+  }
+  .right .sub-text{
+    width: 80%;
+    font-size: 0.8rem;
+    line-height: 1rem;
+  }
+  .Who-can-benefit-from-sugardevs{
+    flex-direction: column;
+  }
+  .Who-can-benefit-from-sugardevs .left img{
+    width: 250px;
+  } 
+  .Who-can-benefit-from-sugardevs .right{
+    padding: 0;
+  } 
+  .Who-can-benefit-from-sugardevs .right .head2{
+    font-size: 1.4rem;
+    padding-top: 30px;
+    width: 90%;
+  }
+  .Who-can-benefit-from-sugardevs .right .sub-text2{
+    font-size: 0.8rem;
+    line-height: 1rem;
+    width: 80%;
+  }
+}
+
+
+
+
+
+@media (max-width: 890px){
+  .Who-can-benefit-from-sugardevs .left img{
+    width: 250px;
+  }
+}

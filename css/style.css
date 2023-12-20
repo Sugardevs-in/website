@@ -1,99 +1,91 @@
-@import url('https://fonts.googleapis.com/css2?family=Akatab&family=Dancing+Script:wght@700&family=Imprima&display=swap');
 
-body {
-    background: #0F0715;
-    margin: 0; /* Remove default margin to ensure full coverage of the background */
-}
 
 .home {
+    position: relative; /* Change to relative to allow positioning of child elements */
     display: flex;
-    flex-direction: row;
+    background-image: url(/media/bg.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction: column;
     justify-content: center;
     align-items:center;
-    position: relative; /* Change to relative to allow positioning of child elements */
-    max-width: 100%;
-    
+    row-gap: 30px;
+    width: 100%;
+    height: 100vh;
 }
 
 .sugardevs-logo {
     border-radius: 274px;
     border: 10px solid rgba(255, 255, 255, 0.19);
     backdrop-filter: blur(20px);
-
-    position: absolute;
-    top: 15%;
-    height: auto;
     max-width: 20%;
-    z-index: 1;
     border-radius: 50% ;
 }
 
-.home_bg_img {
-    max-width: 100%;
-    height: auto;
-    position: relative;
-    text-align: center;
-    color: black;
-    z-index: -1;
-}
 
 .home_hero_text {
-
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1;
-    color: white;
-    font-family: 'Imprima', sans-serif;
-    font-size: 3.5vw;
-    white-space: nowrap;
+    color: var(--text1);
+    font-family: Imprima, sans-serif;
+    font-size: 2.7rem;
     background: rgba(255, 255, 255, 0.19);
     backdrop-filter: blur(40px);
-    border: 2px;
- 
-    border-radius: 20px;
-
+    padding: 5px 30px;
+    border-radius: 50px;
 }
 .white-sep{
     height: 2px;
     width: 100%;
-    color: #fff;
     background-color: #fff;
 }
 
 /*What we are section*/
-
-.second-android-img{
-    max-width: 40%;
-    height: auto;
-    padding: 5%;
-}
 .what-we-are{
+    background-color: var(--background);
+    color: var(--text1);
+    width: 100%;
     display: flex;
-    padding: 5%;
+    flex-direction: row;
+    align-items: center;
+    height: 60vh;
 }
-.sub-hero-text{
-    padding: 5%;
-    color: #FFF;
-    text-align: center;
-    font-family: Imprima;
-    font-size: 4vw;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+.left{
+    display: flex;
+    /* width: 100%; */
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.left .second-android-img{
+    aspect-ratio: 1 / 1;
+    width: 50%;
+}
 
+.right{
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    justify-content: center;
+    /* width: 100%; */
+    height: 100%;
+}
+.right h2{
+    font-size: 2.6rem;
+    font-family: Poppins;
+}
+.right p{
+    font-size: 1.3rem;
+}
+/* .sub-hero-text{
+    font-family: Imprima;
+    font-size: 3rem;
+    font-weight: 400;
 }
 .sub-text{
-color: #FFF;
-text-align: justify ;
-font-family: Delius;
-font-size: 2vw;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-
-}
+    color: #FFF;
+    font-family: Delius;
+    font-size: 1.5rem;
+    font-weight: 400;
+} */
 
 /*Who can benefit from sugardevs section*/
 .Who-can-benefit-from-sugardevs{

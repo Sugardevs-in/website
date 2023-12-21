@@ -3,107 +3,146 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/responsive.css" />
     <title>Sugardevs</title>
+    <link rel="icon" href="media/sugar devs.png" type="logo/x-icon">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <!-- css links -->
+    <link rel="stylesheet" href="css/home-section.css" />
+    <link rel="stylesheet" href="css/pageContents.css" />
+    <link rel="stylesheet" href="css/product-section.css" />
+    <link rel="stylesheet" href="css/contact-us.css" />
   </head>
-
   <body>
-    <!-- home section-->
-    <div class="home">
-      <!--logo-->
+    <!-- Home pgae section -->
+    <div class="homePage">
+      <!-- logo -->
       <img
         src="media/sugar devs.png"
-        alt="sugardevs-logo"
+        alt="Sugardevs logo"
         class="sugardevs-logo"
       />
-      <!--background image-->
-      <!--hero text-->
-      <h1 class="home_hero_text">
-        Crafting Android Apps With a Dash Of Sweetness!
-      </h1>
-    </div>
-    <div class="white-sep"></div>
-    <!--What we are section-->
 
+      <!-- home section text -->
+      <p class="home_hero_text">
+        Crafting Android Apps With a Dash Of Sweetness!
+      </p>
+    </div>
+
+    <div class="partition"></div>
+
+    <!-- what we are section -->
     <div class="what-we-are">
+      <!-- image side  -->
       <div class="left">
-        <img
-          src="media/Rectangle 4.png"
-          alt="image"
-          class="second-android-img"
-        />
+        <img src="media/phone-img.png" />
       </div>
 
+      <!-- text section  -->
       <div class="right">
-        <h2 class="sub-hero-text">What we are?</h2>
-
-        <p class="sub-text">
+        <span class="head">What we are?</span>
+        <span class="sub-text">
           We are a startup specialized in crafting exceptional Android
           applications tailored to our clients unique visions and requirements.
           Our team of highly skilled developers is dedicated to staying ahead of
           the curve in the ever-evolving Android app market
-        </p>
+        </span>
       </div>
     </div>
 
-    <div class="white-sep"></div>
-    <!--Who can benefit from sugardevs setion-->
+    <div class="partition"></div>
 
+    <!-- who can benefit from sugardevs -->
     <div class="Who-can-benefit-from-sugardevs">
-      <h2 class="Who-can-benefit-from-sugardevs-hero">
-        Who can benefit from sugardevs?
-        <p class="Who-can-benefit-from-sugardevs-text">
+      <!-- image side -->
+      <div class="left">
+        <img src="media/third.png" alt="third img" />
+      </div>
+
+      <!-- text side -->
+      <div class="right">
+        <span class="head2">Who can benefit from sugardevs?</span>
+        <span class="sub-text2">
           Whether you're a busy professional, a student, or a stay-at-home
           parent, sugardevs can help be on top of your tasks and schedule. Our
           app is designed to be intuitive and user-friendly, making it
           accessible to anyone who wants to be more productive.
-        </p>
-      </h2>
-      <img src="media/third.png" alt="third img" class="third-img" />
-    </div>
-    <div class="white-sep"></div>
-
-    <!--Our Products page-->
-    <div class="our-products">
-      <img src="media/notes 1.png" alt="notes app" class="fourth-img" />
-      <h2 class="our-products-hero">
-        Our Products
-        <p class="our-products-text">Try our first app</p>
-        <a
-          href="https://drive.google.com/file/d/1srWDYXprxBqm1_d1kVk5klEusDlwZ3Qp/view?usp=drive_link"
-          ><button class="download-button">Download</button></a
-        >
-      </h2>
-    </div>
-    <div class="white-sep"></div>
-
-    <!--Contact us-->
-    <div class="contact-us">
-      <h2 class="contact-us-hero">Connect with us</h2>
-      <div class="contact-us-img">
-        <a href="https://discord.gg/ZAstqB7w" class="socials">
-          <img src="media/Discord Bubble.png" alt="Discord" height="50px"
-        /></a>
-        <a href="https://x.com/sugardevs?s=20" class="socials"
-          ><img src="media/TwitterX.png" alt="TwitterX" height="50px"
-        /></a>
-        <a
-          href="https://www.instagram.com/sugardevs?igshid=YTQwZjQ0NmI0OA=="
-          class="socials"
-        >
-          <img src="media/Instagram.png" alt="Instagram" height="50px"
-        /></a>
-        <a
-          href="https://www.youtube.com/channel/UCFJFzPPlGhAf1XKv0eN5QtQ"
-          class="socials"
-          ><img src="media/YouTube.png" alt="YouTube" height="50px"
-        /></a>
-      </div>
-      <h3 class="email">support@sugardevs.in</h3>
-      <div class="copyright">
-        copyright &#169; Sugardevs- All Rights Reserved.
+        </span>
       </div>
     </div>
+
+    <div class="partition"></div>
+
+    <!-- Product section -->
+    <div class="product-section">
+      <div class="head3">Our Products</div>
+
+      <div class="products">
+        <!-- first product -->
+        <div class="product1">
+          <div class="productlogo">
+            <img src="media/notes 1.png" alt="Notes app" />
+          </div>
+
+          <!-- product details -->
+          <div class="right1">
+            <div class="product-details">
+              <h3>Notes App</h3>
+              <p>
+                Effortlessly organize your thoughts with our sleek notes app
+              </p>
+            </div>
+
+            <!-- Download button -->
+            <a
+              class="download-button"
+              target="_blank"
+              href="https://drive.google.com/file/d/1srWDYXprxBqm1_d1kVk5klEusDlwZ3Qp/view?usp=drive_link"
+            >
+              <button>Download</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="partition"></div>
+
+    <!-- contact us section -->
+    <div class="contact-section">
+      <div class="top">Connect with us</div>
+
+      <!-- links -->
+      <div class="middle">
+        <!-- discord -->
+        <a href="https://discord.gg/ZAstqB7w">
+          <i class="bx bxl-discord-alt"></i>
+        </a>
+
+        <!-- twitter -->
+        <a href="https://x.com/sugardevs?s=20">
+          <i class="bx bxl-twitter"></i>
+        </a>
+
+        <!-- instagram -->
+        <a href="https://www.instagram.com/sugardevs?igshid=YTQwZjQ0NmI0OA==">
+          <i class="bx bxl-instagram-alt"></i>
+        </a>
+
+        <!-- youtube -->
+        <a href="https://www.youtube.com/channel/UCFJFzPPlGhAf1XKv0eN5QtQ">
+          <i class="bx bxl-youtube"></i>
+        </a>
+      </div>
+
+      <div class="bottom">support@sugardevs.in</div>
+    </div>
+
+    <!-- footer -->
+    <footer class="copyright">
+      <p>Copyright &copy; Sugardevs &dash; All Rights Reserved</p>
+    </footer>
   </body>
 </html>
